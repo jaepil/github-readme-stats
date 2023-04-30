@@ -142,7 +142,7 @@ Puedes personalizar el aspecto de tu `Tarjeta de Estadísticas` o `Tarjeta de Re
 - `bg_color` - Color de fondo _(hex color)_
 - `hide_border` - Oculta el borde de la tarjeta _(booleano)_
 - `theme` - Nombre del tema, elige uno de [todos los temas disponible ](../themes/README.md)
-- `cache_seconds` - Cache _(min: 1800, max: 86400)_
+- `cache_seconds` - Cache _(min: 14400, max: 86400)_
 - `locale` - configurar el idioma en la tarjeta _(p.ej. cn, de, es, etc.)_
 
 ##### Gradiente en `bg_color`
@@ -157,7 +157,7 @@ Puedes pasar mútliples valores separados por coma en la opción `bg_color` para
 
 #### Opciones exclusivas de la Tarjeta de Estadísticas:
 
-- `hide` - Oculta de las estadísticas los elementos especificados _ (valores separados por comas) _
+- `hide` - Oculta de las estadísticas [los elementos especificados](#ocultar-estadísticas-individualmente) _(valores separados por comas)_
 - `hide_title` - _(booleano)_
 - `hide_rank` - _(booleano)_
 - `show_icons` - _(booleano)_
@@ -351,7 +351,7 @@ Escoja cualquiera de los [temas por defecto](#themes)
 
 Por lo general, no podrás acomodar las imágenes una al lado de la otra. Para hacerlo, puede usar este enfoque:
 
-```md
+```html
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
 </a>

@@ -53,6 +53,8 @@
     <a href="/docs/readme_nl.md">Nederlands</a>
     .
     <a href="/docs/readme_np.md">नेपाली</a>
+    .
+    <a href="/docs/readme_tr.md">Türkçe</a>
   </p>
 </p>
 <p align="center">Vous aimez ce projet? Pensez <a href="https://www.paypal.me/anuraghazra">à faire un don</a> pour l'améliorer!
@@ -138,7 +140,7 @@ Vous pouvez personnaliser l'apparence de votre `Carte des stats` ou `Carte de d�
 - `bg_color` - Couleur du fond de la carte _(hex color)_ **ou** un gradiant de la forme _angle,start,end_
 - `hide_border` - Cache la bordure de la carte _(booléen)_
 - `theme` - Nom du thème, parmis [tous les thèmes disponibles](../themes/README.md)
-- `cache_seconds` - Paramétrer le cache manuellement _(min: 1800, max: 86400)_
+- `cache_seconds` - Paramétrer le cache manuellement _(min: 14400, max: 86400)_
 - `locale` - définir la langue de la carte _(par exemple. cn, de, es, etc.)_
 
 ##### Gradient in bg_color
@@ -153,7 +155,7 @@ Vous pouvez fournir plusieurs valeurs (suivie d'une virgule) dans l'option bg_co
 
 #### Stats Card Exclusive Options:
 
--   `hide` - Masquer les éléments spécifiés dans les statistiques _(Comma seperated values)_
+-   `hide` - Masquer [les éléments spécifiés](#cacher-les-statistiques-individuelles) dans les statistiques _(Comma seperated values)_
 -   `hide_title` - Masquer le titre _(boolean)_
 -   `hide_rank` - Masquer le rang _(boolean)_
 -   `show_icons` - Afficher les icônes _(boolean)_
@@ -290,7 +292,7 @@ Choisissez parmi l'un des [thèmes par défaut](#themes)
 
 En général, vous ne pourrez pas mettre les images côte à côte. Pour ce faire, vous pouvez utiliser cette approche :
 
-```md
+```html
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
 </a>
